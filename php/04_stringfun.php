@@ -20,6 +20,8 @@ echo "<pre>";
 echo rtrim("    this is a good boy     ");
 echo "<br>";
 echo ltrim("    this is a good boy     ");
+echo "<br>";
+echo trim("    this is a good boy     ");
 echo "</pre>";
 
 ?>

@@ -83,6 +83,21 @@ echo "For !m , the result is ";
 echo var_dump(!$m);
 echo "<br>";
 
+if (2=='2') #compares value only
+{
+    echo "true";
+}
+else
+{
+    echo "false";
+}
 
-
+if (2==='2') #compares datatype & value both
+{
+    echo "true";
+}
+else
+{
+    echo "false";
+}
 ?>
