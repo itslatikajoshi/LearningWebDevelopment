@@ -17,7 +17,4 @@ echo "<br>";
 echo var_dump($GLOBALS["a"]);
 echo var_dump($GLOBALS["b"]);
 
-
-
-
 ?>
