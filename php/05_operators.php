@@ -10,13 +10,13 @@ $a = 45;
 $b = 8;
 
 // 1. Arithmetic Operators
-echo "For a + b, the result is ". ($a + $b) . "<br>";
-echo "For a - b, the result is ". ($a - $b) . "<br>";
-echo "For a * b, the result is ". ($a * $b) . "<br>";
-echo "For a / b, the result is ". ($a / $b) . "<br>";
-echo "For a % b, the result is ". ($a % $b) . "<br>";
-echo "For a ** b, the result is ". ($a ** $b) . "<br>";
- 
+echo "For a + b, the result is "  .  ($a + $b) . "<br>";
+echo "For a - b, the result is "  .  ($a - $b) . "<br>";
+echo "For a * b, the result is "  .  ($a * $b) . "<br>";
+echo "For a / b, the result is "  .  ($a / $b) . "<br>";
+echo "For a % b, the result is "  .  ($a % $b) . "<br>";
+echo "For a ** b, the result is " . ($a ** $b) . "<br>";
+
 // 2. Assignment Operators
 // $x = $a;
 // echo "For x, the value is ". $x . "<br>";
@@ -53,7 +53,7 @@ $y = 78;
 // echo "For x < y, the result is ";
 // echo var_dump($x <= $y);
 
-echo "For x <> y, the result is "; 
+echo "For x <> y, the result is ";
 echo var_dump($x <> $y);
 echo "<br>";
 
@@ -63,41 +63,36 @@ echo "<br>";
 $m = true;
 $n = true;
 
-echo "For m and n, the result is "; 
+echo "For m and n, the result is ";
 echo var_dump($m and $n);
 echo "<br>";
 
-echo "For m && n, the result is "; 
+echo "For m && n, the result is ";
 echo var_dump($m && $n);
 echo "<br>";
 
-echo "For m or n, the result is "; 
+echo "For m or n, the result is ";
 echo var_dump($m or $n);
 echo "<br>";
 
-echo "For m || n, the result is "; 
+echo "For m || n, the result is ";
 echo var_dump($m || $n);
 echo "<br>";
 
-echo "For !m , the result is "; 
+echo "For !m , the result is ";
 echo var_dump(!$m);
 echo "<br>";
 
-if (2=='2') #compares value only
+if (2 == '2') #compares value only
 {
     echo "true";
-}
-else
-{
+} else {
     echo "false";
 }
 
-if (2==='2') #compares datatype & value both
+if (2 === '2') #compares datatype & value both
 {
     echo "true";
-}
-else
-{
+} else {
     echo "false";
 }
-?>

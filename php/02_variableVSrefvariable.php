@@ -1,23 +1,19 @@
 <?php
+#constants in php
+define("SCHOOL", "Jaycees");
 
-    #constants in php
+echo SCHOOL;
+#variable
+$Gaurav = "Latika";
+$name = $Gaurav;
+#reference variable
+$newname = $$name;
+echo $newname;
 
-    define("SCHOOL","Jaycees");
+$x = "abc";
+$$x = 200;
+echo $x . "<br/>";
+echo $$x . "<br/>";
+echo $abc;
 
-    echo SCHOOL;
-    #variable
-    $Gaurav = "Latika";
-    $name = $Gaurav;
-    #reference variable
-    $newname = $$name;
-    echo $newname;
-    
-    $x = "abc";  
-    $$x = 200;  
-    echo $x."<br/>";  
-    echo $$x."<br/>";  
-    echo $abc;  
-
-    ECHO "ram";
-
-?>
+echo "ram";
